@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(224, 150, 187);
+  /*background-image: url('../img/圖片2.png');*/
+  background-repeat: no-repeat;
+  margin: 0;
+}
+h1 {
+  font-size: 200px;
+  color: rgb(230, 159, 159);
+  text-align: center;
+  background-color: rgb(86, 170, 209);
+  padding: 18vw;
+}
+p {
+  font-size: 80px;
+  background-color: rgb(193, 158, 224);
+  text-align: center;
+}
+img {
+  height: 500px;
+  width: 500px;
+}
+
+a:hover {
+  color: #70e2cf;
+}
+a:active {
+  color: rgb(119, 205, 231);
+}
+ul {
+  list-style-type: none;
+  background-color: rgb(3, 224, 231);
+  overflow: hidden;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: rgb(24, 216, 223);
+  font-size: large;
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+}
+
+/* {
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+} */
+
+div.motherContainer {
+  display: flex;
+}
+
+div.motherContainer div.left {
+  background-color: rgb(51, 216, 161);
+  width: 30%;
+  /*float: left; */
+}
+
+div.motherContainer div.right {
+  background-color: beige;
+  width: 40%;
+  /* float: left; */
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  /* margin:0; */
+}
+
+.left {
+  background-color: aqua;
+}
+
+.right {
+  background-color: blanchedalmond;
+  color: bisque;
+}
+
+.center {
+  background-color: aquamarine;
+}
